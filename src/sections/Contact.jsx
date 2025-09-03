@@ -13,7 +13,7 @@ export default function Contact() {
     }
 
     return (
-        <section id="contact" className="relative">
+        <section id="contact-sec" className="relative">
             <div className="absolute top-0 left-0 max-w-180 w-[40%] h-[40%] max-h-180 bg-gradient-to-b from-[#5524B7] to-[#380B60] rounded-full filter blur-[70px] -z-10 opacity-15 "></div>
             <div className="py-10 px-6 ">
                 <form

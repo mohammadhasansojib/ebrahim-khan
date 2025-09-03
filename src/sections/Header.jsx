@@ -35,7 +35,7 @@ const Header = () => {
             <a className="hover:text-indigo-600" href="#education" onClick={(e) => handleOpenMenu(e)}>
             Education
             </a>
-            <a className="hover:text-indigo-600" href="#contact" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600" href="#contact-sec" onClick={(e) => handleOpenMenu(e)}>
             Contact
             </a>
             {/* Close Menu Button */}
