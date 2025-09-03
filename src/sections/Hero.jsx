@@ -1,4 +1,6 @@
 'use client'
+import userPlaceholder from '../images/user-placeholder.png'
+
 
 export default function Hero() {
   
@@ -45,7 +47,7 @@ export default function Hero() {
             <img
               alt=""
               className="w-90 max-lg:w-70 rounded-lg hover:scale-105 transition duration-300 object-cover flex-shrink-0 shadow-lg"
-              src="./public/user-placeholder.png"
+              src={userPlaceholder}
             />
           </div>
         </div>
