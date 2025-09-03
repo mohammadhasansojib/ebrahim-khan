@@ -1,4 +1,4 @@
-import ExperienceCard from "../componenets/ExperienceCard";
+import ExperienceCard from "../components/ExperienceCard";
 
 
 const experiences = {

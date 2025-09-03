@@ -1,4 +1,4 @@
-import Skill from "../componenets/Skill";
+import Skill from "../components/Skill";
 
 
 

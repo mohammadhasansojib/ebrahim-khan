@@ -1,5 +1,5 @@
-import AcademicCard from "../componenets/AcademicCard";
-import CourseCard from "../componenets/courseCard";
+import AcademicCard from "../components/AcademicCard";
+import CourseCard from "../components/courseCard";
 
 
 const education = {
