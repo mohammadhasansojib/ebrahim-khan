@@ -3,7 +3,7 @@
 export default function About() {
     return (
         <>  
-            <div className="py-16 md:w-full md:mx-auto flex flex-col items-center justify-center bg-gradient-to-b from-[#5524B7] to-[#380B60] p-10 text-white">
+            <div id="about" className="py-16 md:w-full md:mx-auto flex flex-col items-center justify-center bg-gradient-to-b from-[#5524B7] to-[#380B60] p-10 text-white">
 
                 <div className="max-w-7xl mx-auto">
                     <h1 className="text-4xl md:text-5xl md:leading-[60px] font-semibold max-w-xl mt-5 bg-gradient-to-r from-white to-[#CAABFF] text-transparent bg-clip-text">About Me</h1>

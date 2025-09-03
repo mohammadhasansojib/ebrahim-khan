@@ -3,14 +3,17 @@ import Contact from "./sections/Contact";
 import Education from "./sections/Education";
 import Experience from "./sections/Experience";
 import Footer from "./sections/Footer";
+import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Skills from "./sections/Skills";
 
 
 
 const App = () => {
+
     return (
         <>
+        <Header />
         <Hero />
         <About />
         <Skills />

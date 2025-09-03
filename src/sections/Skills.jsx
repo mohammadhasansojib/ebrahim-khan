@@ -33,8 +33,8 @@ const Skills = () => {
 
 
     return (
-        <section>
-            <div className="max-w-7xl mx-auto px-6 py-15">
+        <section id="skills">
+            <div className="max-w-7xl mx-auto px-6 py-10">
                 <h2 className="text-5xl font-bold py-4 text-center">Skills</h2>
                 <div className="my-12">
                     <h3 className="text-3xl font-semibold capitalize mb-6">Technical Skills</h3>

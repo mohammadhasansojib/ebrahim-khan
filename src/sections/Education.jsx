@@ -22,16 +22,16 @@ const Education = () => {
     const courses = education.courses.map((i) => <CourseCard certificate={i.certificate} institute={i.institute}  />);
 
     return (
-        <section>
+        <section id="education">
             <div className="max-w-7xl mx-auto px-6 py-15">
                 <h2 className="text-5xl font-bold py-4 text-center">Education</h2>
-                <div className="my-12">
+                <div className="mt-12">
                     <h3 className="text-3xl font-semibold capitalize mb-6">Academic</h3>
                     <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
                         {academic}
                     </div>
                 </div>
-                <div className="my-12">
+                <div className="mt-12">
                     <h3 className="text-3xl font-semibold capitalize mb-6">Courses</h3>
                     <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
                         {courses}

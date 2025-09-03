@@ -23,16 +23,16 @@ const Experience = () => {
     const coCurricularExperience = experiences.coCurricularExperience.map((ex) => <ExperienceCard start={ex.start} end={ex.end} title={ex.title} designation={ex.designation} />);
 
     return (
-        <section>
+        <section id="experience" className="bg-gradient-to-b from-[#5524B7] to-[#380B60] text-white">
             <div className="max-w-7xl mx-auto px-6 py-15">
                 <h2 className="text-5xl font-bold py-4 text-center">Experience</h2>
-                <div className="my-12">
+                <div className="mt-12">
                     <h3 className="text-3xl font-semibold capitalize mb-6">Work Experience</h3>
                     <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
                         {workExperience}
                     </div>
                 </div>
-                <div className="my-12">
+                <div className="mt-12">
                     <h3 className="text-3xl font-semibold capitalize mb-6">Co-curricular Experience</h3>
                     <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
                         {coCurricularExperience}
