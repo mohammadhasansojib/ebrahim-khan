@@ -10,7 +10,7 @@ const experiences = {
     coCurricularExperience: [
         {start: "2025/07", end: "present", title: "Assistant Media and Communication Secretary", designation: "Northern University Bangladesh"},
         {start: 2023, end: "present", title: "Social Media Executive", designation: "Green Earth Resilience Foundation"},
-        {start: 2022, end: 2023, title: "Former Division Co-Coordinator", designation: "Bondhumohol Blood Donor Society"},
+        {start: 2023, end: 2024, title: "Former Division Co-Coordinator", designation: "Bondhumohol Blood Donor Society"},
         {start: 2021, end: 2023, title: "Former Distric Coordinator", designation: "Bondhumohol Blood Donor Society"},
         {start: 2017, end: 2020, title: "Former Assistant Scouts Leader", designation: "Bangladesh Scouts - BSMRAU School"},
     ],
