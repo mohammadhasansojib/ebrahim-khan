@@ -19,7 +19,7 @@ const Header = () => {
 
             {/* Navigation */}
             <nav
-            className={`z-15 max-md:fixed max-md:top-0 max-md:left-0 items-center justify-center flex-col md:flex-row flex gap-8 text-gray-900 text-sm font-normal transition-[width] max-md:overflow-hidden max-md:h-full max-md:bg-white/90 ${menuOpen ? 'max-md:w-full' : 'max-md:w-0'}`}>
+            className={`z-15 max-md:fixed max-md:top-0 max-md:left-0 items-center justify-center flex-col md:flex-row flex gap-8 text-gray-900 text-sm font-normal transition-[width] max-md:overflow-hidden max-md:h-full max-md:bg-white/100 ${menuOpen ? 'max-md:w-full' : 'max-md:w-0'}`}>
             <a className="hover:text-indigo-600" href="#home" onClick={(e) => handleOpenMenu(e)}>
             Home
             </a>
