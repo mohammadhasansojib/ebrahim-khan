@@ -20,22 +20,22 @@ const Header = () => {
             {/* Navigation */}
             <nav
             className={`z-15 max-md:fixed max-md:top-0 max-md:left-0 items-center justify-center flex-col md:flex-row flex gap-8 text-gray-900 text-sm font-normal transition-[width] max-md:overflow-hidden max-md:h-full max-md:bg-white/90 ${menuOpen ? 'max-md:w-full' : 'max-md:w-0'}`}>
-            <a className="hover:text-indigo-600" href="#home" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600 font-semibold" href="#home" onClick={(e) => handleOpenMenu(e)}>
             Home
             </a>
-            <a className="hover:text-indigo-600" href="#about" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600 font-semibold" href="#about" onClick={(e) => handleOpenMenu(e)}>
             About
             </a>
-            <a className="hover:text-indigo-600" href="#skills" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600 font-semibold" href="#skills" onClick={(e) => handleOpenMenu(e)}>
             Skills
             </a>
-            <a className="hover:text-indigo-600" href="#experience" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600 font-semibold" href="#experience" onClick={(e) => handleOpenMenu(e)}>
             Experience
             </a>
-            <a className="hover:text-indigo-600" href="#education" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600 font-semibold" href="#education" onClick={(e) => handleOpenMenu(e)}>
             Education
             </a>
-            <a className="hover:text-indigo-600" href="#contact-sec" onClick={(e) => handleOpenMenu(e)}>
+            <a className="hover:text-indigo-600 font-semibold" href="#contact-sec" onClick={(e) => handleOpenMenu(e)}>
             Contact
             </a>
             {/* Close Menu Button */}
