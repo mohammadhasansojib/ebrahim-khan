@@ -4,21 +4,21 @@ import Skill from "../components/Skill";
 
 const skills = {
     technicalSkills: [
-        {title: "Networking Basics", percentage: 70},
-        {title: "Networking (Physical Network and Wireless Network)", percentage: 80},
-        {title: "MikroTik (Configuration, Management)", percentage: 67},
-        {title: "Cisco (Routing, Switching, VLANs etc)", percentage: 34},
-        {title: "ONU and OLT (Configuration and Management)", percentage: 78},
-        {title: "Network Troubleshooting", percentage: 45},
-        {title: "Problem-Solving (Analytical Thinking and Root Cause Analysis)", percentage: 58},
-        {title: "Network Monitoring (Nagios, Zabbix and Winbox)", percentage: 36},
-        {title: "Virtualization (VMware)", percentage: 72},
-        {title: "OS Windows (Installation, Configuration and Maintenance)", percentage: 56},
+        {title: "Networking Basics", percentage: 60},
+        {title: "Networking (Physical Network and Wireless Network)", percentage: 60},
+        {title: "MikroTik (Configuration, Management)", percentage: 50},
+        {title: "Cisco (Routing, Switching, VLANs etc)", percentage: 40},
+        {title: "ONU and OLT (Configuration and Management)", percentage: 60},
+        {title: "Network Troubleshooting", percentage: 50},
+        {title: "Problem-Solving (Analytical Thinking and Root Cause Analysis)", percentage: 50},
+        {title: "Network Monitoring (Nagios, Zabbix and Winbox)", percentage: 50},
+        {title: "Virtualization (VMware)", percentage: 40},
+        {title: "OS Windows (Installation, Configuration and Maintenance)", percentage: 30},
     ],
     softSkills: [
         {title: "Good Communication", percentage: 60},
-        {title: "Team Working", percentage: 80},
-        {title: "Team Mangaement", percentage: 60},
+        {title: "Team Working", percentage: 55},
+        {title: "Team Mangaement", percentage: 65},
     ]
 };
 

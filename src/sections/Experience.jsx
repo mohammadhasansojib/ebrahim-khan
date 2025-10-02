@@ -3,15 +3,15 @@ import ExperienceCard from "../components/ExperienceCard";
 
 const experiences = {
     workExperience: [
-        {start: 2020, end: 2022, title: "Race Online Bangladesh", designation: "Junior Network Engineer"},
-        {start: 2020, end: 2022, title: "Business Network (B.net)", designation: "Junior Support Engineer"},
-        {start: 2020, end: 2022, title: "OneSky Communications Limited", designation: "Internship"},
+        {start: "2025/07", end: "present", title: "Race Online Bangladesh", designation: "Junior Network Engineer"},
+        {start: "2024/10", end: "2025/06", title: "Business Network (B.net)", designation: "Junior Support Engineer"},
+        {start: "2024/07", end: "2024/09", title: "OneSky Communications Limited", designation: "Internship"},
     ],
     coCurricularExperience: [
-        {start: 2020, end: 2022, title: "Assistant Media and Communication Secretary", designation: "Northern University Bangladesh"},
-        {start: 2020, end: 2022, title: "Social Media Executive", designation: "Green Earth Resilience Foundation"},
-        {start: 2020, end: 2022, title: "Former Division Co-Coordinator", designation: "Bondhumohol Blood Donor Society"},
-        {start: 2020, end: 2022, title: "Former Assistant Scouts Leader", designation: "Bangladesh Scouts - BSMRAU School"},
+        {start: "2025/07", end: "present", title: "Assistant Media and Communication Secretary", designation: "Northern University Bangladesh"},
+        {start: 2023, end: "present", title: "Social Media Executive", designation: "Green Earth Resilience Foundation"},
+        {start: 2022, end: 2023, title: "Former Division Co-Coordinator", designation: "Bondhumohol Blood Donor Society"},
+        {start: 2017, end: 2020, title: "Former Assistant Scouts Leader", designation: "Bangladesh Scouts - BSMRAU School"},
     ],
 };
 

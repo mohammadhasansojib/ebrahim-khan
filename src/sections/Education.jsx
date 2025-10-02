@@ -5,8 +5,8 @@ import CourseCard from "../components/CourseCard";
 const education = {
     academic: [
         {start: 2019, end: 2020, certificate: "Secondary School Certificate", institute: "Bangabandhu Sheikh Mujibur Rahman Agricultural University School", result: "4.44 / 5.00"},
-        {start: 2019, end: 2020, certificate: "Diploma In Computer Technology", institute: "Mymensingh Polytechnic Institute", result: "3.51 / 4.00"},
-        {start: 2019, end: 2020, certificate: "BSc In CSE", institute: "Northern University Bangladesh", result: "pending..."},
+        {start: 2020, end: 2024, certificate: "Diploma In Computer Technology", institute: "Mymensingh Polytechnic Institute", result: "3.51 / 4.00"},
+        {start: 2025, end: "present", certificate: "BSc In CSE", institute: "Northern University Bangladesh", result: "pending..."},
     ],
     courses: [
         {certificate: "CompTIA A+ ( Hardware, Operating Systems, Networking, Security, Virtualization, Cloud Computing, and Troubleshooting)", institute: "One Sky Information Technology"},
