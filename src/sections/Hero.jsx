@@ -1,5 +1,5 @@
 'use client'
-import userPlaceholder from '../images/user-placeholder.png'
+import userPlaceholder from '../images/profile-pic.jpg'
 
 
 export default function Hero() {
@@ -14,6 +14,7 @@ export default function Hero() {
       {/* Main Section */}
       <section id="home" className="">
         <div className='flex flex-col gap-12 md:flex-row items-center max-md:text-center justify-between py-16 px-6 sm:px-10 md:px-24 max-w-7xl mx-auto w-full'>
+
           <div className="flex flex-col items-center md:items-start">
 
             <h1 className="capitalize text-gray-900 font-bold text-3xl sm:text-4xl md:text-6xl max-w-2xl leading-tight">
